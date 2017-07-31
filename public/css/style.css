@@ -1,0 +1,80 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul, a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+#sidebar {
+    display: inline-block;
+    width: 290px;
+    background-color: #3e3e3e;
+    padding: 25px 20px;
+    height: 100%;
+    float: left;
+}
+
+
+.logo-container {
+    width: 250px;
+    height: 250px;
+    border: 6px double black;
+    border-radius: 147px;
+    margin: 0 auto 28px;
+    background-image: url('../img/popo.png');
+    background-position: -75px;
+}
+
+.logo-container a {
+    padding: 0 !important;
+    height: 100%;
+    border-radius: 147px;
+}
+
+.logo-container a:hover {
+    background-color: transparent !important;
+}
+
+#sidebar a {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    padding: 11px 0;
+}
+
+#sidebar a:hover {
+    background-color: #8a8a8a80;
+    transition-duration: 0.3s;
+}
+
+section {
+    float: left;
+}
+
+.options {
+    height: 200px;
+    float: left;
+    display: inline-block;
+    margin: 5px;
+}
+
+.options:hover {
+    box-shadow: 0 0 5px #3e3e3e;
+    cursor: pointer;
+}
+
+.options a {
+}
+
+
+
+
+
+
+
+
